@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Credit Application Form</title>
+</head>
+<body>
+    <h1>New Account Set Up/Change to Terms</h1>
+    <form action="/submit_form" method="post">
+        <label for="date">Date:</label>
+        <input type="date" id="date" name="date"><br><br>
+
+        <label for="account_number">Account Number:</label>
+        <input type="text" id="account_number" name="account_number"><br><br>
+
+        <label for="customer_name">Customer Name:</label>
+        <input type="text" id="customer_name" name="customer_name"><br><br>
+
+        <label for="phone_number">Phone Number:</label>
+        <input type="tel" id="phone_number" name="phone_number"><br><br>
+
+        <label for="purchasing_email">Purchasing Email:</label>
+        <input type="email" id="purchasing_email" name="purchasing_email"><br><br>
+
+        <label for="ap_email">AP Email:</label>
+        <input type="email" id="ap_email" name="ap_email"><br><br>
+
+        <label for="internal_rep">Internal Rep:</label>
+        <input type="text" id="internal_rep" name="internal_rep"><br><br>
+
+        <label for="external_rep">External Rep:</label>
+        <input type="text" id="external_rep" name="external_rep"><br><br>
+
+        <label for="comments">Comments:</label><br>
+        <textarea id="comments" name="comments" rows="4" cols="50"></textarea><br><br>
+
+        <h2>Credit Manager Approval</h2>
+
+        <label for="credit_limit">Credit Limit:</label>
+        <input type="text" id="credit_limit" name="credit_limit"><br><br>
+
+        <label for="terms">Terms:</label>
+        <input type="text" id="terms" name="terms"><br><br>
+
+        <label for="signature">Signature:</label>
+        <input type="text" id="signature" name="signature"><br><br>
+
+        <label for="date_approval">Date:</label>
+        <input type="date" id="date_approval" name="date_approval"><br><br>
+
+        <label for="comments_approval">Comments:</label><br>
+        <textarea id="comments_approval" name="comments_approval" rows="4" cols="50"></textarea><br><br>
+
+        <input type="submit" value="Submit">
+    </form>
+</body>
+</html>
